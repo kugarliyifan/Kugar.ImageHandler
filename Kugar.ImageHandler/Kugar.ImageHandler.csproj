@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Kugar.Storage" Version="1.0.8" />
+    <PackageReference Include="Kugar.Storage.Local" Version="1.0.10" />
+    <PackageReference Include="NetVips" Version="2.2.0" />
+    <PackageReference Include="NetVips.Native.win-x64" Version="8.13.2" />
+  </ItemGroup>
+
+</Project>
